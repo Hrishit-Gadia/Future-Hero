@@ -8,7 +8,7 @@ Body {
     Border-Top-Right-Radius : 50px;
     Border-Bottom-Left-Radius : 50px;
     Height : 500px;
-    Width : 500px;
+    Width : 1000px;
     Border-Style : Ridge;
 }
 
@@ -17,4 +17,8 @@ Body {
 	width: 600px;
 	border-radius: 10px;
 	margin-bottom: 10px;
+}
+
+#Text {
+    Color : White;
 }
