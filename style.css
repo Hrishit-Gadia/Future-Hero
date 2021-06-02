@@ -1,0 +1,20 @@
+Body {
+    Background-Image : Url("Avengers.jpg");
+    Background-Size : Cover;
+}
+
+#The-Canvas {
+    Background-Color : #FFFFFF;
+    Border-Top-Right-Radius : 50px;
+    Border-Bottom-Left-Radius : 50px;
+    Height : 500px;
+    Width : 500px;
+    Border-Style : Ridge;
+}
+
+#Info
+{
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
