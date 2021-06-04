@@ -1,5 +1,5 @@
 var Canvas = new fabric.Canvas('The-Canvas');
-var Size = 50;
+var Size = 60;
 var PlayerObject;
 var ObjectImage;
 var PlayerX = 200;
@@ -146,4 +146,40 @@ if ( Key == 37){
     console.log("Left")
     Left();
 }
+}
+
+function Help() {
+    window.alert("Use Arrow keys to move player and make your own super hero! if you cannot see the player use arrow keys!")
+}
+
+function Up() {
+    if ( PlayerY > 50){
+PlayerY = PlayerY - Size;
+Canvas.remove(PlayerObject);
+Player_Update()  
+ }
+}
+
+function Down() {
+    if ( PlayerY <= 300){
+PlayerY = PlayerY + Size;
+Canvas.remove(PlayerObject);
+Player_Update()  
+ }
+}
+
+function Left() {
+    if ( PlayerX > 20){
+PlayerX = PlayerX - Size;
+Canvas.remove(PlayerObject);
+Player_Update()  
+ }
+}
+
+function Right() {
+    if (PlayerX <= 850){
+        PlayerX = PlayerX + Size;
+        Canvas.remove(PlayerObject);
+        Player_Update();
+    }
 }

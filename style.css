@@ -22,3 +22,7 @@ Body {
 #Text {
     Color : White;
 }
+
+#Helper {
+    Border-Radius : 100%;
+}
